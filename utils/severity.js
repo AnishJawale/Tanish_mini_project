@@ -1,11 +1,21 @@
 function getSeverity(level) {
-  if (level === "HIGH") {
-    return "🚨 HIGH - Immediate attention required!";
+  switch (level) {
+    case "HIGH":
+      return {
+        level: "HIGH",
+        message: "🚨 HIGH - Immediate medical attention required!"
+      };
+    case "MEDIUM":
+      return {
+        level: "MEDIUM",
+        message: "⚠️ MEDIUM - Monitor condition and consult doctor"
+      };
+    default:
+      return {
+        level: "LOW",
+        message: "✅ LOW - Manageable at home"
+      };
   }
-  if (level === "MEDIUM") {
-    return "⚠️ MEDIUM - Monitor condition";
-  }
-  return "✅ LOW - Manageable at home";
 }
 
 module.exports = { getSeverity };

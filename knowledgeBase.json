@@ -4,36 +4,15 @@
     "description": "A common viral infection affecting the respiratory system.",
     "symptoms": ["fever", "cough", "fatigue", "body ache", "chills"],
     "severity": "LOW",
-    "doctor": "General Physician",
-    "homeRemedies": [
-      "Drink warm fluids",
-      "Take adequate rest",
-      "Steam inhalation",
-      "Gargle with salt water"
-    ],
-    "medications": [
-      "Paracetamol",
-      "Cough syrup"
-    ],
-    "urgentCare": "If fever persists more than 3 days or breathing difficulty occurs"
+    "doctor": "General Physician"
   },
 
   "migraine": {
     "name": "Migraine",
     "description": "A neurological condition causing intense headaches.",
-    "symptoms": ["headache", "nausea", "sensitivity to light", "vomiting"],
+    "symptoms": ["headache", "nausea", "vomiting"],
     "severity": "MEDIUM",
-    "doctor": "Neurologist",
-    "homeRemedies": [
-      "Rest in a dark quiet room",
-      "Apply cold compress",
-      "Stay hydrated"
-    ],
-    "medications": [
-      "Ibuprofen",
-      "Sumatriptan"
-    ],
-    "urgentCare": "If headache is sudden and severe or accompanied by vision loss"
+    "doctor": "Neurologist"
   },
 
   "food_poisoning": {
@@ -41,17 +20,7 @@
     "description": "Illness caused by contaminated food.",
     "symptoms": ["stomach pain", "vomiting", "diarrhea", "nausea"],
     "severity": "MEDIUM",
-    "doctor": "Gastroenterologist",
-    "homeRemedies": [
-      "Drink ORS",
-      "Avoid solid food initially",
-      "Eat light meals like khichdi"
-    ],
-    "medications": [
-      "ORS",
-      "Antiemetics"
-    ],
-    "urgentCare": "If dehydration or continuous vomiting occurs"
+    "doctor": "Gastroenterologist"
   },
 
   "heart_attack": {
@@ -59,32 +28,15 @@
     "description": "A serious condition where blood flow to the heart is blocked.",
     "symptoms": ["chest pain", "sweating", "shortness of breath", "nausea"],
     "severity": "HIGH",
-    "doctor": "Cardiologist",
-    "homeRemedies": [
-      "No home remedies — emergency condition"
-    ],
-    "medications": [
-      "Aspirin (only if advised)"
-    ],
-    "urgentCare": "Immediate medical emergency. Call ambulance immediately."
+    "doctor": "Cardiologist"
   },
 
   "diabetes": {
     "name": "Diabetes",
     "description": "A chronic condition affecting blood sugar levels.",
-    "symptoms": ["frequent urination", "increased thirst", "fatigue", "blurred vision"],
+    "symptoms": ["fatigue", "blurred vision", "frequent urination", "increased thirst"],
     "severity": "HIGH",
-    "doctor": "Endocrinologist",
-    "homeRemedies": [
-      "Maintain healthy diet",
-      "Regular exercise",
-      "Monitor sugar levels"
-    ],
-    "medications": [
-      "Metformin",
-      "Insulin"
-    ],
-    "urgentCare": "If blood sugar levels are extremely high or low"
+    "doctor": "Endocrinologist"
   },
 
   "hypertension": {
@@ -92,86 +44,94 @@
     "description": "High blood pressure condition.",
     "symptoms": ["headache", "dizziness", "blurred vision"],
     "severity": "MEDIUM",
-    "doctor": "Cardiologist",
-    "homeRemedies": [
-      "Reduce salt intake",
-      "Exercise regularly",
-      "Avoid stress"
-    ],
-    "medications": [
-      "Amlodipine",
-      "Losartan"
-    ],
-    "urgentCare": "If BP is extremely high or chest pain occurs"
+    "doctor": "Cardiologist"
   },
 
   "common_cold": {
     "name": "Common Cold",
     "description": "Mild viral infection of the nose and throat.",
-    "symptoms": ["cough", "sneezing", "runny nose", "sore throat"],
+    "symptoms": ["cough", "runny nose", "sneezing", "sore throat"],
     "severity": "LOW",
-    "doctor": "General Physician",
-    "homeRemedies": [
-      "Drink warm fluids",
-      "Steam inhalation",
-      "Honey and ginger"
-    ],
-    "medications": [
-      "Antihistamines",
-      "Decongestants"
-    ],
-    "urgentCare": "If symptoms worsen or last more than a week"
+    "doctor": "General Physician"
   },
 
   "asthma": {
     "name": "Asthma",
     "description": "A condition in which airways narrow and swell.",
-    "symptoms": ["shortness of breath", "wheezing", "cough"],
+    "symptoms": ["shortness of breath", "cough", "wheezing"],
     "severity": "HIGH",
-    "doctor": "Pulmonologist",
-    "homeRemedies": [
-      "Avoid triggers like dust",
-      "Practice breathing exercises"
-    ],
-    "medications": [
-      "Inhalers",
-      "Bronchodilators"
-    ],
-    "urgentCare": "If breathing becomes very difficult"
+    "doctor": "Pulmonologist"
   },
 
   "gastritis": {
     "name": "Gastritis",
     "description": "Inflammation of stomach lining.",
-    "symptoms": ["stomach pain", "bloating", "nausea"],
+    "symptoms": ["stomach pain", "nausea", "bloating"],
     "severity": "LOW",
-    "doctor": "Gastroenterologist",
-    "homeRemedies": [
-      "Avoid spicy food",
-      "Eat smaller meals",
-      "Drink warm water"
-    ],
-    "medications": [
-      "Antacids",
-      "Proton pump inhibitors"
-    ],
-    "urgentCare": "If severe pain or vomiting blood occurs"
+    "doctor": "Gastroenterologist"
   },
 
   "anemia": {
     "name": "Anemia",
-    "description": "A condition where you lack enough healthy red blood cells.",
-    "symptoms": ["fatigue", "pale skin", "dizziness", "shortness of breath"],
+    "description": "Low red blood cells.",
+    "symptoms": ["fatigue", "dizziness", "pale skin"],
     "severity": "MEDIUM",
-    "doctor": "General Physician",
-    "homeRemedies": [
-      "Eat iron-rich foods",
-      "Include leafy greens",
-      "Take vitamin C"
-    ],
-    "medications": [
-      "Iron supplements"
-    ],
-    "urgentCare": "If severe weakness or fainting occurs"
+    "doctor": "General Physician"
+  },
+
+  "dengue": {
+    "name": "Dengue",
+    "description": "Mosquito-borne viral infection.",
+    "symptoms": ["fever", "body ache", "headache", "rash"],
+    "severity": "HIGH",
+    "doctor": "General Physician"
+  },
+
+  "malaria": {
+    "name": "Malaria",
+    "description": "Parasitic infection transmitted by mosquitoes.",
+    "symptoms": ["fever", "chills", "sweating", "fatigue"],
+    "severity": "HIGH",
+    "doctor": "General Physician"
+  },
+
+  "typhoid": {
+    "name": "Typhoid",
+    "description": "Bacterial infection causing high fever.",
+    "symptoms": ["fever", "weakness", "stomach pain", "headache"],
+    "severity": "HIGH",
+    "doctor": "General Physician"
+  },
+
+  "covid_like": {
+    "name": "Viral Infection",
+    "description": "Respiratory viral infection similar to COVID.",
+    "symptoms": ["fever", "cough", "fatigue", "shortness of breath"],
+    "severity": "MEDIUM",
+    "doctor": "General Physician"
+  },
+
+  "allergy": {
+    "name": "Allergy",
+    "description": "Immune system reaction.",
+    "symptoms": ["sneezing", "runny nose", "itching", "rash"],
+    "severity": "LOW",
+    "doctor": "Allergist"
+  },
+
+  "dehydration": {
+    "name": "Dehydration",
+    "description": "Lack of water in body.",
+    "symptoms": ["dizziness", "fatigue", "dry mouth"],
+    "severity": "LOW",
+    "doctor": "General Physician"
+  },
+
+  "stress": {
+    "name": "Stress / Anxiety",
+    "description": "Mental health condition.",
+    "symptoms": ["headache", "fatigue", "sleep issues"],
+    "severity": "MEDIUM",
+    "doctor": "Psychologist"
   }
 }
