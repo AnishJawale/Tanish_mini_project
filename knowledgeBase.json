@@ -1,0 +1,177 @@
+{
+  "flu": {
+    "name": "Flu",
+    "description": "A common viral infection affecting the respiratory system.",
+    "symptoms": ["fever", "cough", "fatigue", "body ache", "chills"],
+    "severity": "LOW",
+    "doctor": "General Physician",
+    "homeRemedies": [
+      "Drink warm fluids",
+      "Take adequate rest",
+      "Steam inhalation",
+      "Gargle with salt water"
+    ],
+    "medications": [
+      "Paracetamol",
+      "Cough syrup"
+    ],
+    "urgentCare": "If fever persists more than 3 days or breathing difficulty occurs"
+  },
+
+  "migraine": {
+    "name": "Migraine",
+    "description": "A neurological condition causing intense headaches.",
+    "symptoms": ["headache", "nausea", "sensitivity to light", "vomiting"],
+    "severity": "MEDIUM",
+    "doctor": "Neurologist",
+    "homeRemedies": [
+      "Rest in a dark quiet room",
+      "Apply cold compress",
+      "Stay hydrated"
+    ],
+    "medications": [
+      "Ibuprofen",
+      "Sumatriptan"
+    ],
+    "urgentCare": "If headache is sudden and severe or accompanied by vision loss"
+  },
+
+  "food_poisoning": {
+    "name": "Food Poisoning",
+    "description": "Illness caused by contaminated food.",
+    "symptoms": ["stomach pain", "vomiting", "diarrhea", "nausea"],
+    "severity": "MEDIUM",
+    "doctor": "Gastroenterologist",
+    "homeRemedies": [
+      "Drink ORS",
+      "Avoid solid food initially",
+      "Eat light meals like khichdi"
+    ],
+    "medications": [
+      "ORS",
+      "Antiemetics"
+    ],
+    "urgentCare": "If dehydration or continuous vomiting occurs"
+  },
+
+  "heart_attack": {
+    "name": "Heart Attack",
+    "description": "A serious condition where blood flow to the heart is blocked.",
+    "symptoms": ["chest pain", "sweating", "shortness of breath", "nausea"],
+    "severity": "HIGH",
+    "doctor": "Cardiologist",
+    "homeRemedies": [
+      "No home remedies — emergency condition"
+    ],
+    "medications": [
+      "Aspirin (only if advised)"
+    ],
+    "urgentCare": "Immediate medical emergency. Call ambulance immediately."
+  },
+
+  "diabetes": {
+    "name": "Diabetes",
+    "description": "A chronic condition affecting blood sugar levels.",
+    "symptoms": ["frequent urination", "increased thirst", "fatigue", "blurred vision"],
+    "severity": "HIGH",
+    "doctor": "Endocrinologist",
+    "homeRemedies": [
+      "Maintain healthy diet",
+      "Regular exercise",
+      "Monitor sugar levels"
+    ],
+    "medications": [
+      "Metformin",
+      "Insulin"
+    ],
+    "urgentCare": "If blood sugar levels are extremely high or low"
+  },
+
+  "hypertension": {
+    "name": "Hypertension",
+    "description": "High blood pressure condition.",
+    "symptoms": ["headache", "dizziness", "blurred vision"],
+    "severity": "MEDIUM",
+    "doctor": "Cardiologist",
+    "homeRemedies": [
+      "Reduce salt intake",
+      "Exercise regularly",
+      "Avoid stress"
+    ],
+    "medications": [
+      "Amlodipine",
+      "Losartan"
+    ],
+    "urgentCare": "If BP is extremely high or chest pain occurs"
+  },
+
+  "common_cold": {
+    "name": "Common Cold",
+    "description": "Mild viral infection of the nose and throat.",
+    "symptoms": ["cough", "sneezing", "runny nose", "sore throat"],
+    "severity": "LOW",
+    "doctor": "General Physician",
+    "homeRemedies": [
+      "Drink warm fluids",
+      "Steam inhalation",
+      "Honey and ginger"
+    ],
+    "medications": [
+      "Antihistamines",
+      "Decongestants"
+    ],
+    "urgentCare": "If symptoms worsen or last more than a week"
+  },
+
+  "asthma": {
+    "name": "Asthma",
+    "description": "A condition in which airways narrow and swell.",
+    "symptoms": ["shortness of breath", "wheezing", "cough"],
+    "severity": "HIGH",
+    "doctor": "Pulmonologist",
+    "homeRemedies": [
+      "Avoid triggers like dust",
+      "Practice breathing exercises"
+    ],
+    "medications": [
+      "Inhalers",
+      "Bronchodilators"
+    ],
+    "urgentCare": "If breathing becomes very difficult"
+  },
+
+  "gastritis": {
+    "name": "Gastritis",
+    "description": "Inflammation of stomach lining.",
+    "symptoms": ["stomach pain", "bloating", "nausea"],
+    "severity": "LOW",
+    "doctor": "Gastroenterologist",
+    "homeRemedies": [
+      "Avoid spicy food",
+      "Eat smaller meals",
+      "Drink warm water"
+    ],
+    "medications": [
+      "Antacids",
+      "Proton pump inhibitors"
+    ],
+    "urgentCare": "If severe pain or vomiting blood occurs"
+  },
+
+  "anemia": {
+    "name": "Anemia",
+    "description": "A condition where you lack enough healthy red blood cells.",
+    "symptoms": ["fatigue", "pale skin", "dizziness", "shortness of breath"],
+    "severity": "MEDIUM",
+    "doctor": "General Physician",
+    "homeRemedies": [
+      "Eat iron-rich foods",
+      "Include leafy greens",
+      "Take vitamin C"
+    ],
+    "medications": [
+      "Iron supplements"
+    ],
+    "urgentCare": "If severe weakness or fainting occurs"
+  }
+}
